@@ -1,0 +1,239 @@
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+  }
+ .navbar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 10vh;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  align-items: right;
+  padding: 15px 40px;
+  background-color:black ;
+ } 
+ .navbar-left img{
+  width: 10vw;
+  height: 10vh;
+  margin-left: 20px;
+  display: flex;
+ }
+ .navbar-right{
+  gap: 25px;
+  display: flex;
+  margin-right: 20px;
+ }
+ .boton{
+  background-color: white;
+  color: rgb(0, 0, 0);
+  border: 2px solid rgb(65, 62, 62);
+  border-radius: 100px;
+  padding: 10px 20px;
+  border-radius: 100px;
+  font-size: 16px;
+  transition: all 0.3s ease;
+ }
+ .boton:hover{
+  background-color: gray;
+  color: white(255, 255, 255);
+}
+.boton-iniciar-sesion{
+  font-weight: bold;
+}
+.idioma{
+  font-style: italic;
+}
+.selector-idioma {
+  margin-top: 2%;
+  background-color: black;
+  color: white;
+  border: 1px solid rgb(65, 62, 62);
+  padding: 10px 20px;
+  border-radius: 100px;
+  font-size: 16px;
+  font-weight: bold;
+
+}
+.selector-idioma-option {
+  color: black;
+}
+.Carrusel{
+  margin-top: 2%;
+  background-image: url(peliculas.jpg);
+  height: 600px;
+  width: 192vh;
+  align-items: center;
+  .text1{
+    font-size: 3vh;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    font-weight: bold;
+    color: white;
+    width: 30%;
+  }
+  .text2{
+    font-size: 20px;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    font-weight: bold;
+    color: white;
+  }
+  .text3{
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    font-weight: bold;
+    color: white;
+    width: 26%;
+  }
+  .text4{
+    display: flex;
+    overflow: hidden;
+    flex-direction: row;
+  border-radius: 8px;
+  gap:10px;
+  align-items: center;
+  }
+  .text4 input[type="email"]{
+    display: flex;
+    padding: 15px 50px;
+    border-radius: 100px;
+    font-size: 20px;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    font-weight: bold;
+    background-color: rgba(85, 78, 78, 0.808);
+    color: white;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    align-items: center;
+    margin-left: 35%;
+    border-color: transparent;
+    }
+   .boton.comenzar{
+    padding: 15px 50px;
+    border-radius: 100px;
+    font-size: 20px;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    font-weight: bold;
+    display: flex;
+    background-color:red;
+    color: white;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    align-items: center;
+    border-color: transparent;
+   } 
+}
+.txtdetendencias{
+  margin-left: 5%;
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+  font-weight: bold;
+  color: white;
+}
+  .tendencias{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .tendencias > div{
+    position: relative;
+  }
+  .tendencias1{
+    border-radius: 10px;
+    margin-left: 10%;
+    margin-top: 3%;
+    background-image: url(tendencia1.jpg);
+    height: 275px;
+    width: 14.6%;
+    .n1{
+      position: absolute;
+      top: 8px;
+      left: 8px;
+      font-size: 4.5rem;
+      font-weight: bold;
+      color: rgb(0, 0, 0);
+      text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.9);
+      z-index: 10;
+      margin: 0;
+      padding: 0;
+      -webkit-text-stroke:2px white ;
+    }
+  } 
+  .tendencias2{
+    border-radius: 10px;
+    margin-top: 3%;
+    background-image: url(tendencia2.jpg);
+    height: 275px;
+    width: 14.6%;
+    .n2{
+      position: absolute;
+  top: 8px;
+  left: 8px;
+  font-size: 4.5rem;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.9);
+  z-index: 10;
+  margin: 0;
+  padding: 0;
+  -webkit-text-stroke:2px white ;
+    }
+  }
+  .tendencias3{
+    border-radius: 10px;
+    margin-top: 3%;
+    background-image: url(tendencia3.jpg);
+    height: 275px;
+    width: 14.6%;
+    .n3{
+      position: absolute;
+      top: 8px;
+      left: 8px;
+      font-size: 4.5rem;
+      font-weight: bold;
+      color: rgb(0, 0, 0);
+      text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.9);
+      z-index: 10;
+      margin: 0;
+      padding: 0;
+      -webkit-text-stroke:2px white ;
+    }
+  }
+  .tendencias4{
+    border-radius: 10px;
+    margin-top: 3%;
+    background-image: url(tendencia4.jpg);
+    height: 275px;
+    width: 14.6%;
+    .n4{
+      position: absolute;
+  top: 8px;
+  left: 8px;
+  font-size: 4.5rem;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.9);
+  z-index: 10;
+  margin: 0;
+  padding: 0;
+  -webkit-text-stroke:2px white ;
+    }
+  }
+  .tendencias5{
+    border-radius: 10px;
+    margin-top: 3%;
+    background-image: url(tendencia5.jpg);
+    height: 275px;
+    width:  14.6%;
+    .n5{
+      position: absolute;
+      top: 8px;
+      left: 8px;
+      font-size: 4.5rem;
+      font-weight: bold;
+      color: rgb(0, 0, 0);
+      text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.9);
+      z-index: 10;
+      margin: 0;
+      padding: 0;
+      -webkit-text-stroke:2px white ;
+    }
+  }
